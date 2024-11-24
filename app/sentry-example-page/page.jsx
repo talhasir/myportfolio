@@ -1,7 +1,7 @@
 "use client";
 
 import Head from "next/head";
-import * as Sentry from "@sentry/nextjs";
+// import * as Sentry from "@sentry/nextjs";
 
 export default function Page() {
   return (
@@ -36,7 +36,7 @@ export default function Page() {
         </h1>
 
         <p>Get started by sending us a sample error:</p>
-        <button
+        {/* <button
           type="button"
           style={{
             padding: "12px",
@@ -61,7 +61,7 @@ export default function Page() {
           }}
         >
           Throw error!
-        </button>
+        </button> */}
 
         <p>
           Next, look for the error on the{" "}
